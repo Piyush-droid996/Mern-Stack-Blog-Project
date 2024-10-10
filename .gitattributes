@@ -1,0 +1,12 @@
+# Force LF for all text files
+* text=auto
+
+# Force LF for specific file types
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+
+# Force binary files to be ignored by text conversion
+*.png binary
+*.jpg binary
